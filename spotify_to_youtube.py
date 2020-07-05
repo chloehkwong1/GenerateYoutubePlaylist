@@ -23,7 +23,7 @@ class Create_Playlist:
         client_credentials_manager = SpotifyClientCredentials(client_id=spotify_client_id, client_secret=spotify_client_secret)
         sp = spotipy.Spotify(client_credentials_manager=client_credentials_manager)
         
-        playlist_url = input("Please paste in the url of your Spotify playlist: ")
+        playlist_url = input("Please paste in the url/uri/id of your Spotify playlist: ")
         results = sp.playlist(playlist_url)
         results_dumps = json.dumps(results, indent=4)
         results_loads = json.loads(results_dumps)
