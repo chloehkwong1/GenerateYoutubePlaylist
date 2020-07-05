@@ -38,7 +38,7 @@ For more information, read Step 1 of the [Youtube API Python Quickstart](https:/
 
 ## Running the Spotify to Youtube app
 1. The spotify_to_youtube.py file can now be run from an IDE or the command line.
-2. When run, the first input should be the URL of the Spotify playlist you want to convert. This can be found by opening the playlist in [Spotify Web Player](https://open.spotify.com/).
+2. When run, the first input should be the URL/URI/ID of the Spotify playlist you want to convert. From the desktop app, identifers can be found by clicking on the 3 dots icon (next to the playlist PLAY button) and then clicking on SHARE. On the [Spotify Web Player](https://open.spotify.com/) the URL can just copied straight from the address bar.
 3. There should then be a series of authorisation steps asking you to paste a URL in your web browser and then another asking you to paste a code back into the command line. 
 4. There is the option for the Youtube playlist to contain videos consisting of lyric videos or M/V's (if available).
 ```
